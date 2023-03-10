@@ -81,3 +81,4 @@
 20230308	18:15:13	97be2a87-63a0-413e-bb7e-6cebca7ed367	POST	undefined	/api/user/reset-password
 20230308	18:15:37	5fa8c896-0f0e-441f-81ac-d1375f5c3599	POST	undefined	/api/user/login
 20230308	18:15:48	b8a0078b-d844-4069-a678-645896016703	POST	undefined	/api/user/login
+20230309	16:21:38	e99bbef4-67e9-487c-a05e-0f31b9155df8	POST	undefined	/api/user/send-otp

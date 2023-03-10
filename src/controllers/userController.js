@@ -139,6 +139,12 @@ userController.post(
   }
 );
 
-userController.post("/send-otp", (req, res) => {});
+userController.post("/send-otp", async (req, res) => {
+  const accountSid = process.env.TWILIO_ACCOUNT_SID;
+  const authToken = process.env.TWILIO_AUTH_TOKEN;
+  const verifySid = process.env.TWILIO_VERIFY_SID;
+
+  const client = require("twilio")(accountSid, authToken);
+});
 
 module.exports = userController;
